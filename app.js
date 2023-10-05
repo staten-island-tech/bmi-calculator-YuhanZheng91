@@ -1,11 +1,16 @@
-const height = Number(prompt("enter your height in meters"));
-const weight = Number(prompt("enter your weight in kilograms"));
+//const height = Number(prompt("enter your height in meters"));
+//const weight = Number(prompt("enter your weight in kilograms"));
 
 function getBMI(){
+    const height = Number(prompt("enter your height in meters"));
+    const weight = Number(prompt("enter your weight in kilograms"));
+
     console.log(weight/height**2*100);
 }
 getBMI();
-/*
+
+
+/* 
 function getBMI(){
 }
 
@@ -14,7 +19,7 @@ function checkBMI(){
 }
 
 function results(){
-    //get wavlues for weight and height
+    //get values for weight and height
     //get BMI
 
     let BMI= getBMI(height, weight);
@@ -24,8 +29,7 @@ function results(){
 // === checks type / == does not check for type
 */
 
-
-/*
+/* runs function getBMI infitintely
 function checkBMI(){
     let BMI = getBMI(height, weight);
     checkBMI(BMI);
