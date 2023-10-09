@@ -18,7 +18,7 @@ function results(){
     } else if(BMI >= 18.5 && BMI<= 24.9){
         console.log("You're good to go");
     } else{
-        console.log("Try and cut your food intake a little :)");
+        console.log("Try and alter your diet a little :)");
     }
 }
 results();
