@@ -1,6 +1,3 @@
-//const height = Number(prompt("enter your height in meters"));
-//const weight = Number(prompt("enter your weight in kilograms"));
-
 const height = Number(prompt("enter your height in meters"));
 const weight = Number(prompt("enter your weight in kilograms"));
 
